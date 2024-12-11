@@ -73,3 +73,38 @@ footer{
 .foot a img{
     background-color: white;
 }
+@media (max-width:700px){
+    .nav{
+        display: grid;
+        width: 60vh;
+        height: 220px ;
+    }
+    .logo img{
+        clip-path: circle();
+        width:"80px";
+        
+    }
+    .contact{
+        position: relative;
+        top: 40px;
+        left: -80%;
+    }
+    .navlist ul li{
+        margin-left: 1px;
+    }
+    .navlist{
+        margin-left: 2px;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .sec3gallery{
+        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .sec3gallery img{
+        margin-top: 20px;
+        width: 350px;
+    }
+}
