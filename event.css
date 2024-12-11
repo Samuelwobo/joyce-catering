@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 19px;
+}
+span{
+    color:  rgb(146, 52, 52);
+    font-weight: bold;
+}
+h1{
+    color:  rgb(146, 52, 52);
+}
+body{
+    min-height: 100vh;
+}
+.logo img{
+    clip-path: circle();
+}
+.nav{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 700vh;
+    z-index: 1;
+}
+.navlist ul li{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: black;
+    border: 2px  solid rgb(146, 52, 52);
+    padding: 8px;
+}
+.navlist{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.navlist ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sec1 img{
+    z-index: 1;
+}
+.sec1write{
+    position: absolute;
+    top: 40%;
+    margin-left: 490px;
+    text-align: center;
+    color: white;
+   
+}
+.sec1write h1{
+    color: white;
+    font-size: 43px;
+}
+.sec1write p{
+    font-size: 22px;
+}
+.sec2{
+    text-align: center;
+    margin-top: 30px;
+}
+.sec2 p{
+    width: 50%;
+    margin-left: 320px;
+    font-size: 21px;
+    
+}
+.sec3{
+    display: flex;
+    width: 80%;
+    margin-left: 70px;
+    gap: 1.3rem;
+    margin-top: 30px;
+}
+.sec3write{
+    margin-top: 70px;
+}
+.sec3write p{
+    margin-top: 20px;
+}
+.sec3write h1{
+    font-size: 40px;
+}
+.sec3write a button{
+    padding: 10px;
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 2px  solid rgb(146, 52, 52);
+    margin-top: 10px;
+}
+.sec4{
+    position: relative;
+}
+.sec4 img{
+    z-index: 1;
+}
+.sec4 .sec4write{
+    position: absolute;
+    top: 40%;
+    margin-left: 490px;
+    text-align: center;
+    color: white;
+}
+.sec4write h1{
+    color: white;
+    font-size: 43px;
+}
+.sec4write p{
+    font-size: 22px;
+}
+.sec5{
+    position: relative;
+    margin-top: 30px;
+}
+.sec5 img{
+    z-index: 1;
+}
+.sec5 .sec5write{
+    position: absolute;
+    top: 30%;
+    margin-left: 490px;
+    text-align: center;
+    color: white;
+}
+.sec5write h1{
+    color: white;
+    font-size: 43px;
+}
+.sec5write p{
+    font-size: 22px;
+    top: 400%;
+    position: absolute;
+}
+.sec6{
+    margin-top: 30px;
+    text-align: center;
+}
+.sec6 button{
+    padding: 10px;
+    width: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 2px  solid rgb(146, 52, 52);
+    margin-top: 10px;
+}
+footer{
+    background-color: black;
+    height: 30vh;
+}
+.foot{
+    color: white;
+    text-align: center;
+}
+.foot a img{
+    background-color: white;
+}

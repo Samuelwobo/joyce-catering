@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 19px;
+}
+span{
+    color:  rgb(146, 52, 52);
+    font-weight: bold;
+}
+h1{
+    color:  rgb(146, 52, 52);
+}
+body{
+    min-height: 100vh;
+}
+.logo img{
+    clip-path: circle();
+}
+.nav{
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 700vh;
+    z-index: 1;
+}
+.navlist ul li{
+    display: inline;
+    justify-content: space-between;
+    margin-left: 50px;
+    color: black;
+    border: 2px  solid rgb(146, 52, 52);
+    padding: 8px;
+}
+.navlist{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.navlist ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sec2{
+    text-align: center;
+    margin-top: 30px;
+}
+.sec2 h1{
+font-size: 38px;
+}
+.sec2 p{
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 120px;
+}
+.sec3{
+    margin-top: 40px;
+    margin-left: 130px;
+    display: flex;
+    gap: 2.5rem;
+}
+.sec3writeup{
+    width: 50%;
+}
+.sec3writeup a button{
+    padding: 10px;
+    width: 20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 2px  solid rgb(146, 52, 52);
+    margin-top: 10px;
+}
+.sec3writeup h1{
+    font-size: 32px;
+}
+.sec3writeup p{
+    margin-top: 30px;
+}
+.sec4{
+    display: flex;
+    gap: 1.6rem;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.sec4ite img{
+    clip-path: circle();
+}
+.sec4ite{
+    background-color: rgba(226, 222, 222, 0.699);
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sec5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.sec5 img{
+    margin-top: 20px;
+}
+.sec5btn a button{
+    padding: 10px;
+    width: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 2px  solid rgb(146, 52, 52);
+    margin-top: 10px;
+    margin-left: 650px;
+}
+.sec6{
+    text-align: center;
+    margin-top: 30px;
+}
+.sec6 h1{
+    font-size: 38px;
+}
+.sec6 a button{
+    padding: 10px;
+    width: 10%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    border: 2px  solid rgb(146, 52, 52);
+    margin-top: 60px;
+}
+.sec6 p{
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    height: 30vh;
+}
+.foot{
+    color: white;
+    text-align: center;
+}
+.foot a img{
+    background-color: white;
+}
+@media (max-width:700px){
+    .nav{
+        display: grid;
+        width: 60vh;
+        height: 220px ;
+    }
+    .logo img{
+        clip-path: circle();
+        width:"80px";
+        
+    }
+    .contact{
+        position: relative;
+        top: 40px;
+        left: -80%;
+    }
+    .navlist ul li{
+        margin-left: 1px;
+    }
+    .navlist{
+        margin-left: 2px;
+        margin-top: 150px;
+        position: absolute;
+    }
+    .sec1 img{
+        width: 360px;
+       height: 60vh;
+        margin-top: 50px;
+    }
+    .sec2 p{
+        margin-top: 10px;
+        width: 80%;
+        margin-left: 30px;
+    }
+    .sec3{
+        margin-left: 1px;
+        display: block;
+    }
+    .sec3writeup{
+        width: 100%;
+    }
+    .sec3img img{
+        width: 360px;
+    }
+    .sec4{
+        display: block;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .sec4ite{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .sec5btn a button{
+        border: 2px  solid rgb(146, 52, 52);
+        margin-top: 10px;
+        margin-left: 130px;
+        width: 30%;
+    }
+    .sec5{
+        display: block;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .sec5 img{
+        margin-top: 20px;
+    }
+    .sec6 a button{
+        padding: 10px;
+        width: 30%;
+        background-color: white;
+        border: 2px  solid rgb(146, 52, 52);
+        margin-top: 60px;
+    }
+}
